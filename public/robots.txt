@@ -1,0 +1,9 @@
+# Allow all robots to crawl the entire site
+User-agent: *
+Disallow:
+
+# But exclude the following directories
+Disallow: /static/
+
+# Set the crawl rate to 10 requests per second
+Crawl-delay: 10
