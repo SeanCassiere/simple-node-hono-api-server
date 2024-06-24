@@ -135,4 +135,3 @@ dist
 #
 .DS_Store
 ignore/
-public/static/openapi.v*
